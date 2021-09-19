@@ -1,0 +1,185 @@
+body{
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+.container {
+  position: fixed;
+  /* right: 0; */
+  left: 85%;
+  /* padding-right: 3%; */
+}
+
+.side-logo{
+  height: 22.42px;
+  width: 87px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.side-menu li a{
+  font-family: 'Modern Antiqua', 'Noto Sans JP', serif;
+  font-size: 14px;
+}
+
+.side-menu li a:hover {
+  text-decoration: underline;
+}
+
+.side-menu li {
+  padding-bottom: 25px;
+}
+
+.side-icons .fab {
+  padding: 45px 10px 0 0;
+}
+
+.side-icons .fab:hover {
+  opacity: 0.8;
+}
+
+.contents {
+  width: 80%;
+}
+
+.top-image {
+  width: 100%;  /*contentsの幅に対して100%*/
+}
+
+.message-wrapper {
+  width: 70%;
+  margin: 0 auto; /*全体を中心に*/
+  text-align: center; /*文字を中心に*/
+}
+
+.heading {
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 22px;
+  padding:80px 0 20px 0;
+  margin-bottom: 50px;
+  border-bottom: 3px solid black; 
+  display: inline-block;  /*ボーダを文字列幅にする*/
+}
+
+.text-area {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 85px;
+}
+
+.photo-wrapper img{
+  width: 33.333333333%;
+}
+
+span .big-photo { /*複数画像の内一つだけ指示を変えたいならspan*/
+  width: 100%;
+}
+
+.brand-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid;
+}
+
+.contents-item {
+  /* width: 25%; */
+  padding: 0 25px;
+  text-align: left;
+}
+
+.contents-item img {
+  width: 100%;
+  padding-bottom :10px;
+}
+
+.brand-contents {
+  display: flex;  /*横並びに*/
+}
+
+.contents-item p {
+  width: 90%;
+}
+.project-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  border-bottom: 1px solid;
+}
+
+.project-item {
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.project-item img {
+  width: 375px;
+  height: 225px;
+  padding-right: 20px;
+}
+
+.project-item p {
+  text-align: left; 
+}
+
+.company-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.company-contents {
+  display: flex;
+  padding-left: 30px;
+  padding-bottom: 200px;
+}
+
+.address {
+  text-align: left;
+  margin-right: 12%;
+}
+
+.ggmap {
+  width: 60%;
+  position: relative;
+  padding-bottom: 25%;
+}
+
+iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 80%;
+  text-align: center;
+}
+
+footer p {
+  padding-bottom: 60px;
+  font-size: 12px;
+}
+
+footer a {
+  color: blue;
+}
+
+/* large-screen */
+@media (min-width:800px) {  
+
+  #open_menu {
+    display: none;
+  }
+  #close_menu {
+    display: none;
+  }
+}  
+
+
+
+
