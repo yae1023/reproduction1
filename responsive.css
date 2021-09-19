@@ -1,0 +1,112 @@
+/*スマホサイズの時*/
+@media (max-width : 800px){
+
+  .container {
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px;
+    background-color: #fff;
+  }
+  .side-logo{
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  
+  #menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    text-align: left;
+    display: none;
+    border-bottom: gray 1px solid;
+  }
+  #menu.shown {
+    margin-top: 40px;
+    display: block;
+  }  
+  #menu li {
+    padding: 15px 0 15px 5px;
+    border-bottom: gray 1px solid;
+  }  
+  #menu a {
+    color: inherit;
+  }  
+  #open_menu {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 10px;
+    margin-top: 5px;
+  } 
+  #close_menu {
+    float: right;
+    font-size: 20px;
+    cursor: pointer; 
+    padding-right: 10px;
+    margin-top: 5px;
+  } 
+
+  /* リストスタイルを三角形に */
+  .side-menu{
+    padding-top:2em;
+  }
+  .side-menu li{
+    position:relative; 
+  }
+  .side-menu li:before{
+    position:absolute;
+    content:'';
+    top: 1.5em;
+    border-style: solid; 
+    border-width: 6px 0px 6px 9px; 
+    border-color: transparent transparent transparent black;
+  }
+
+  .side-icons .fab {
+    padding: 15px 10px;
+  }
+
+  .photo-wrapper img {
+    width: 100%;
+  }
+
+  .contents {
+    width: 100%;
+  }
+
+  .contents-item {
+    padding-bottom: 60px;
+    text-align: center;
+  }
+
+  .contents-item img {
+    width: 170px;
+  }
+  
+  .brand-contents {
+    flex-direction: column;
+  }
+
+  .project-item {
+    flex-direction: column;
+  }
+  .project-item p {
+    padding-top: 25px;
+  }
+
+  .company-contents {
+    flex-direction: column;
+  }
+
+  .company-contents p {
+    padding-bottom: 50px;
+  }
+
+  .ggmap {
+    width: 100%;
+    height: 300px;
+  }
+} 
